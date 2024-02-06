@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&display=swap');
+*{
+    font-family: 'Acme', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #5b744b;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/bushes_plants_leaves_211820_1920x1080.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.h1{
+    color: #558a36;
+    font-size: 75px;
+    padding: 10px;
+    text-shadow: 0 3.5px 0 rgba(255, 254, 206, 0.83);
+    margin-left: 10px;
+}
+nav{
+    font-family: 'Amatic SC', sans-serif;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    background-color: #f3babab3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+}
+.nav-anchor{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
+    color: #ffb7aa;
+    background-color: #5b744b;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.nav-input{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 3px;
+    margin-right: 10px;
+}
+.p1{
+    font-family: 'Fredericka the Great', serif;
+    color: #e3b4ac;
+    background-color: #3b241c89;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 0 1.8px 0 rgb(255, 254, 206);
+    border: 3px solid #3b241c;
+    margin-left: 10px;
+}
+.home-section1{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-flex{
+    width: 58%;
+    height: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hdiv{
+    width: 850px;
+    height: 400px;
+}
+.hd1{
+    background-image: url(https://images.wallpaperscraft.com/image/single/houseplant_leaves_green_937923_1280x720.jpg);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.hd2{
+    background-image: url(https://images.wallpaperscraft.com/image/single/book_cup_tea_113580_1280x720.jpg);
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.aposition{
+    color: #2b5129;
+    background-color: rgba(255, 255, 255, 0.451);
+    display: inline-block;
+    padding: 10px;
+    font-size: 38px;
+}
+.style{
+    color: #2b5129;
+    background-color: rgba(255, 255, 255, 0.648);
+    font-size: 22px;
+    margin-top: 5px;
+    transition: all .1s;
+    border: 3px solid white;
+}
+.hd1:hover .style{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.hd2:hover .style{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.hd3:hover .style1{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.hd4:hover .style{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.hd5:hover .style{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.divh{
+    width: 570px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hd3{
+    background-image: url(https://i.pinimg.com/564x/55/7e/a8/557ea8b074be3c6f72fbc813a0973548.jpg);
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.aposition1{
+    color: #3b241c;
+    background-color: rgba(255, 255, 255, 0.451);
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+.style1{
+        color: #3b241c;
+        background-color: rgba(255, 255, 255, 0.648);
+        font-size: 22px;
+        margin-top: 5px;
+        transition: all .1s;
+        border: 3px solid white;
+ }
+ .hd4{
+    background-image: url(https://i.pinimg.com/564x/8d/f6/23/8df62369f7f70d1af5d660be756d74e0.jpg);
+    background-position: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+ }
+ .hd5{
+    background-image: url(https://i.pinimg.com/564x/7b/59/e5/7b59e5bea841c42c8b5a1b98b415ccf7.jpg);
+    background-position: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+ }
+.hs2{
+    width: 42%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* book stote css */
+.head1{
+    height: 200px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/greenhouse_palm_trees_plants_155753_1280x720.jpg);
+}
+.s1{
+    height: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.d1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div{
+    width: 275px;
+    height: 375px;
+    background-color: #e3b4ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+.button{
+    padding: 13px;
+    background-color: #5b744b;
+    color: #ffb7aa;
+    border-radius: 50px;
+    border: 2px solid rgb(164, 164, 164);
+}
+/* house shop css */
+.shop-header{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://i.pinimg.com/564x/c4/cc/62/c4cc6282f70a21153e540c82db11eca4.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.heading1{
+    font-family: 'Fredericka the Great', serif;
+    display: inline-block;
+    padding: 4px;
+    font-size: 32px;
+    color: #3b241c;
+    background-color: #799567b5;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 30px;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.54);
+}
+.heading1-button{
+    color: white;
+    background-color: #3b241c;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    right: 30px;
+    bottom: -26px;
+    transition: all .1s;
+}
+.heading1-button:hover{
+    box-shadow: 0 0 9px gray;
+    transform: scale(1.1);
+}
+.header-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.para1{
+    font-family: 'Fredericka the Great', serif;
+    margin: 30px;
+    font-size: 22px;
+    color: #3b241c;
+    text-shadow: 0 1px 0 #3b241c;
+    background-color: #799567d8;
+}
+.heading2{
+    color: #3b241c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #f3babab3;
+}
+/* Accessories css */
+.Accessories-header{
+    background-image: url(https://i.pinimg.com/564x/82/44/3f/82443f8e6fd91e0e32d79a25f791f98d.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+}
+/* Footer */
+footer{
+    background-image: url(https://i.pinimg.com/564x/cd/2c/44/cd2c44f1ff72e1069646594b5bed832c.jpg);
+    width: 100%;
+    height: 265px;
+}
+footer *{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input{
+    padding: 3px;
+    text-align: center;
+}
+.color{
+    color: #3b241c;
+}
+/* responsive */
+@media(min-width: 360px) and (max-width: 550px){
+    .logo{
+        display: none;
+    }
+    .nav-input{
+        display: none;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    .s1{
+        height: 4800px;
+    }
+    .d1{
+        height: 1600px;
+    }
+    .div{
+        margin: 10px;
+    }
+    .heading1{
+        font-size: 14px;
+    }
+    .para1{
+        font-size: 14px;
+        margin: 30px 10px 10px 10px;
+    }
+}
+@media(min-width: 360px) and (max-width: 778px){
+.header{
+        align-items: center !important;
+        background-image: none;
+        text-align: center;
+}
+.h1{
+    margin:100px 10px 10px 10px;
+}
+.p1{
+    margin: 10px 10px 30px 10px;
+}
+.hdiv{
+    width: 350px;
+    height: 200px;
+}
+.divh{
+    width: 350px;
+    height: 200px;
+}
+.home-section1{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.div-flex{
+    height: 500px;
+    margin-top: 30px;
+}
+.hs2{
+    height: 700px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.aposition{
+    font-size: 20px;
+}
+.style{
+    font-size: 18px;
+}
+}
+@media(min-width: 778px) and (max-width: 1380px){
+.home-section1{
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    margin-right: 10px;
+}
+.p1{
+    margin-right: 10px;
+}
+}
+@media(min-width: 550px) and (max-width: 1100px){
+    .s1{
+        height: 2400px;
+    }
+    .d1{
+        height: 800px;
+    }
+    .div{
+        margin: 10px;
+    }
+    .heading1{
+        font-size: 18px;
+    }
+    .para1{
+        font-size: 16px;
+        margin: 30px 10px 10px 30px;
+    }
+}
