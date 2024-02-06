@@ -374,7 +374,7 @@ ul{
 @media(min-width: 360px) and (max-width: 778px){
 .header{
         align-items: center !important;
-        background-image: none;
+        height: 800px;
         text-align: center;
 }
 .h1{
