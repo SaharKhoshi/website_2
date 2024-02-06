@@ -248,7 +248,12 @@ nav{
     background-color: #5b744b;
     color: #ffb7aa;
     border-radius: 50px;
-    border: 2px solid rgb(164, 164, 164);
+    border: 1.5px solid rgb(164, 164, 164);
+    transition: all .1s;
+}
+.button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1.3px 0 #5b744b;
 }
 /* house shop css */
 .shop-header{
